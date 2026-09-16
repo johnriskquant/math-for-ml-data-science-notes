@@ -1,7 +1,7 @@
 ## 1. Partial Derivatives & The Gradient
 
 *   **The Core Concept:** When dealing with multiple variables, a partial derivative measures the rate of change of one specific variable while strictly treating all other variables as constants. 
-*   **Visualization:** Refer to ![3D Partial Derivative Visualization](<partial-derivative-surface.png>) . By holding one variable constant, we slice the 3D loss surface to create a 2D curve (red line), allowing us to find the 1D tangent slope (black line) at that exact point.
+*   **Visualization:** Refer to ![3D Partial Derivative Visualization](../assets/partial-derivative-surface.png) . By holding one variable constant, we slice the 3D loss surface to create a 2D curve (red line), allowing us to find the 1D tangent slope (black line) at that exact point.
 *   **The Gradient ($\nabla f$):** As we move into higher dimensions, we calculate the partial derivative for every single variable. Assembling all these partial derivatives into a single vector gives us the gradient, which points in the direction of the steepest ascent on the surface.
 
 ## 2. Analytical Optimization vs. Gradient Descent
@@ -15,7 +15,8 @@ To find the minimum of a function $f(x,y)$:
 1.  **Initialize:** Choose a random starting point $(x_0,y_0)$.
 2.  **Define Learning Rate ($\alpha$):** Set the step size for each iteration.
 3.  **Update Rule:** Step in the opposite direction of the gradient to travel downhill: 
-    $$ \begin{bmatrix} x_k \\ y_k \end{bmatrix} = \begin{bmatrix} x_{k-1} \\ y_{k-1} \end{bmatrix} - \alpha \nabla f(x_{k-1}, y_{k-1}) $$
+ $$x_k = x_{k-1} - \alpha \frac{\partial f}{\partial x}(x_{k-1}, y_{k-1})$$
+$$y_k = y_{k-1} - \alpha \frac{\partial f}{\partial y}(x_{k-1}, y_{k-1})$$
 4.  **Iterate:** Repeat Step 3 until the updates become negligibly small (convergence to the minimum).
 
 **Crucial Algorithm Dynamics:**
