@@ -1,7 +1,8 @@
 ## 1. Partial Derivatives & The Gradient
 
 *   **The Core Concept:** When dealing with multiple variables, a partial derivative measures the rate of change of one specific variable while strictly treating all other variables as constants. 
-*   **Visualization:** Refer to ![3D Partial Derivative Visualization](../assets/partial-derivative-surface.png) . By holding one variable constant, we slice the 3D loss surface to create a 2D curve (red line), allowing us to find the 1D tangent slope (black line) at that exact point.
+*   **Visualization:** By holding one variable constant, we slice the 3D loss surface to create a 2D curve (red line), allowing us to find the 1D tangent slope (black line) at that exact point.
+![3D Partial Derivative Visualization](../assets/partial-derivative-surface.png)
 *   **The Gradient ($\nabla f$):** As we move into higher dimensions, we calculate the partial derivative for every single variable. Assembling all these partial derivatives into a single vector gives us the gradient, which points in the direction of the steepest ascent on the surface.
 
 ## 2. Analytical Optimization vs. Gradient Descent
