@@ -1,8 +1,19 @@
 # Mathematics for Machine Learning & Data Science
 
-Welcome to my central repository for the **DeepLearning.AI Mathematics for Machine Learning and Data Science Specialization**. 
+A comprehensive quick-reference repository covering the core mathematical foundations required for Machine Learning, Artificial Intelligence, and quantitative Data Science. 
 
-This repository documents my mathematical upskilling as I transition my career focus into first-line (1LOD) Data Science and FinTech Credit Risk. It contains rigorous mathematical notes, LaTeX formulas, and custom Python implementations bridging theoretical math into applied credit risk scenarios.
+This repository is designed to be highly forkable and serves as a practical bridge between theoretical mathematics and applied programming. It strips away the textbook bloat to provide direct, rigorous reference materials for developers, data scientists, and quantitative analysts.
+
+### What's Inside
+* **Foundational Notes:** Streamlined, quick-reference documentation covering core concepts across **Linear Algebra**, **Calculus**, and **Probability & Statistics**.
+* **Rigorous Formulations:** Extensive use of LaTeX for precise equations, theorems, and statistical distributions.
+* **Applied Implementations:** Custom Python scripts and Jupyter notebooks translating theoretical mathematics into applied algorithms and data science workflows.
+
+### Who is this for?
+Whether you are upskilling in AI, preparing for technical quantitative interviews, or just need a reliable local reference for statistical formulas and matrix operations, this repository is built to be cloned, referenced, and expanded.
+
+
+
 
 ### 📁 Repository Architecture
 
