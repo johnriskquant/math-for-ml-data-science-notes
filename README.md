@@ -13,12 +13,16 @@ This repository documents my mathematical upskilling as I transition my career f
 * [Week 4: Determinants and Eigenvectors](./linear-algebra/week-4-determinants-eigenvectors)
 * [Bonus: Spectral Decomposition and SVD Mechanics](./linear-algebra/bonus)
 
-**Course 2: Calculus for Machine Learning (In Progress)**
+**Course 2: Calculus for Machine Learning **
 * [Week 1: Derivatives and Optimization](./calculus/week-1-derivatives-and-optimization)
 * [Week 2: Gradients and Gradient Descent](./calculus/week-2-gradients-and-gradient-descent)
 * [Week 3: Optimization in Neural Networks and Newton's Method](./calculus/week-3-optimization-in-neural-networks)
 
-**Course 3: Probability & Statistics (Coming Soon)**
+**Course 3: Probability & Statistics (In Progress)**
+* [Week 1: Introduction to Probability and Probability Distributions](./prob-stats/week-1-prob-and-prob-distributions)
+* [Week 2: Describing probability distributions and probability distributions with multiple variables](./prob-stats/week-2-prob-dist-with-multiple-vars)
+* [Week 3: Sampling and Point estimation](./prob-stats/week-3-sampling-and-point-estimation)
+* [Week 4: Confidence Intervals and Hypothesis testing](./prob-stats/week-4-confidence-interval-and-hypthesis-testing)
 
 ---
 
