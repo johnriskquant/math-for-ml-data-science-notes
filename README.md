@@ -24,7 +24,7 @@ Whether you are upskilling in AI, preparing for technical quantitative interview
 * [Week 4: Determinants and Eigenvectors](./linear-algebra/week-4-determinants-eigenvectors)
 * [Bonus: Spectral Decomposition and SVD Mechanics](./linear-algebra/bonus)
 
-**Course 2: Calculus for Machine Learning **
+**Course 2: Calculus for Machine Learning**
 * [Week 1: Derivatives and Optimization](./calculus/week-1-derivatives-and-optimization)
 * [Week 2: Gradients and Gradient Descent](./calculus/week-2-gradients-and-gradient-descent)
 * [Week 3: Optimization in Neural Networks and Newton's Method](./calculus/week-3-optimization-in-neural-networks)
