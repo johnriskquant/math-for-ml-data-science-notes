@@ -34,6 +34,11 @@ A formal framework for evaluating competing claims about a population parameter 
 *   **Null Hypothesis ($H_0$):** The baseline or status quo assumption (e.g., "The coin is fair, $p = 0.5$").
 *   **Alternative Hypothesis ($H_1$):** The claim you are trying to prove (e.g., "The coin is biased, $p \neq 0.5$").
 
+#### Test Statistic vs. Observed Statistic
+*   **Test Statistic:** A standardized mathematical formula applied to a random sample to quantify how far the data deviates from the null hypothesis. Before data is collected, it is a random variable (e.g., $Z$ or $T$) with a known theoretical probability distribution, assuming $H_0$ is true. It serves as the structural framework for the test.
+*   **Observed Statistic:** The single, fixed numerical value calculated by plugging the actual collected sample data into the test statistic formula. 
+*   **The Distinction:** The test statistic is the abstract mathematical framework (e.g., the Z-score formula used to backtest a probability of default model), while the observed statistic is the concrete output generated from a specific data sample (e.g., this quarter's actual numeric default rate score). You compare the observed statistic against a critical value to make your final decision.
+
 #### Types of Errors
 Because we make decisions based on samples, we never know the absolute ground truth and risk making errors.
 *   **Type I Error (False Positive):** Rejecting $H_0$ when $H_0$ is actually true. (e.g., Classifying a legitimate email as spam).
