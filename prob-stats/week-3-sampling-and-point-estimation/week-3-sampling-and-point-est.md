@@ -22,12 +22,6 @@ The LLN states that as your sample size grows, the sample mean will converge to 
 *   **Condition:** Requires random draws, sufficiently large $n$, and independent observations.
 *   **Formal Definition:** As $n \to \infty$, the sample average $\bar{X}_n = \frac{1}{n}\sum_{i=1}^{n} X_i \to E[X] = \mu$.
 
-
-### Law of Large Numbers (LLN)
-The LLN states that as your sample size grows, the sample mean will converge to the true population mean. 
-*   **Condition:** Requires random draws, sufficiently large $n$, and independent observations.
-*   **Formal Definition:** As $n \to \infty$, the sample average $\bar{X}_n = \frac{1}{n}\sum_{i=1}^{n} X_i \to E[X] = \mu$. $\bar{X}_n = \frac{1}{n}\sum_{i=1}^{n} X_i \to E[X] = \mu$.
-
 ### Central Limit Theorem (CLT)
 While the LLN tells us *where* the sample average is going, the CLT tells us what the *distribution* of those averages looks like.
 *   **The Theorem:** If you draw repeated samples of size $n$ from a population, the distribution of those sample averages will approximate a Normal Distribution as $n$ gets larger—**regardless of the underlying population's original distribution** (whether uniform, binomial, highly skewed, etc.).
