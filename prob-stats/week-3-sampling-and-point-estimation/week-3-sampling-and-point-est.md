@@ -20,7 +20,8 @@ The population variance is calculated as $\sigma^2 = \frac{1}{N}\sum_{i=1}^{N}(X
 ### Law of Large Numbers (LLN)
 The LLN states that as your sample size grows, the sample mean will converge to the true population mean. 
 *   **Condition:** Requires random draws, sufficiently large $n$, and independent observations.
-* **Formal Definition:** As $n \to \infty$, the sample average converges to the population mean: $\displaystyle \bar{X}_n = \frac{1}{n}\sum_{i=1}^{n} X_i \to E[X] = \mu$
+*   **Formal Definition:** As $n \to \infty$, the sample average converges to the population mean: $`\bar{X}_n = \frac{1}{n}\sum_{i=1}^{n} X_i \to E[X] = \mu`$
+
 
 ### Central Limit Theorem (CLT)
 While the LLN tells us *where* the sample average is going, the CLT tells us what the *distribution* of those averages looks like.
