@@ -13,7 +13,7 @@ A confidence interval (CI) is an estimated range of values that is likely to inc
 If the population standard deviation ($\sigma$) is known, and assuming $n \ge 30$ or the population is normal:
 *   $\bar{X} \sim N(\mu, \frac{\sigma^2}{n})$
 *   **Formula:** $\bar{x} \pm Z_{1-\alpha/2} \left( \frac{\sigma}{\sqrt{n}} \right)$
-*   *Note: $Z_{1-\alpha/2}$ is the Z-score corresponding to the desired confidence level (e.g., 1.96 for 95% confidence, where $\alpha = 0.05$).*
+*   *Note: $`Z_{1-\alpha/2}`$ is the Z-score corresponding to the desired confidence level (e.g., 1.96 for 95% confidence, where $\alpha = 0.05$).*
 *   **Calculating Minimum Sample Size:** To achieve a specific Margin of Error (MOE): 
     $$n \ge \left( \frac{Z_{1-\alpha/2} \cdot \sigma}{\text{MOE}} \right)^2$$
 
