@@ -30,7 +30,7 @@ While analytical solvers exist, building a custom gradient descent engine for li
 
 *   **The Loss Function (Single Observation):** We measure the squared error between the predicted value $\hat{y}$ and actual value $y$. 
     $$L(m,b) = \frac{1}{2}(\hat{y}^{(i)} - y^{(i)})^2$$ 
-    *Note: We multiply by $\frac{1}{2}$ purely as a calculus trick. When we take the derivative, the exponent $2$ drops down and cleanly cancels it out.*
+    *Note: We multiply by $`\frac{1}{2}`$ purely as a calculus trick. When we take the derivative, the exponent $`2`$ drops down and cleanly cancels it out.*
 *   **The Cost Function (Entire Dataset):** We average the loss across all $n$ data points. 
     $$E(m,b) = \frac{1}{2n} \sum_{i=1}^{n} (mx^{(i)} + b - y^{(i)})^2$$
 *   **Calculating the Partial Derivatives:** 
